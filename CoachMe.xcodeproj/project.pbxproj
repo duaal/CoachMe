@@ -11,6 +11,8 @@
 		257AD9442A07C4E500688C03 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257AD9432A07C4E500688C03 /* ContentView.swift */; };
 		257AD9462A07C4E600688C03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 257AD9452A07C4E600688C03 /* Assets.xcassets */; };
 		257AD9492A07C4E600688C03 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 257AD9482A07C4E600688C03 /* Preview Assets.xcassets */; };
+		257AD9502A07D04400688C03 /* onBoeardingData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257AD94F2A07D04400688C03 /* onBoeardingData.swift */; };
+		257AD9522A07D46B00688C03 /* onBoreading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257AD9512A07D46B00688C03 /* onBoreading.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		257AD9432A07C4E500688C03 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		257AD9452A07C4E600688C03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		257AD9482A07C4E600688C03 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		257AD94F2A07D04400688C03 /* onBoeardingData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onBoeardingData.swift; sourceTree = "<group>"; };
+		257AD9512A07D46B00688C03 /* onBoreading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onBoreading.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 				257AD9432A07C4E500688C03 /* ContentView.swift */,
 				257AD9452A07C4E600688C03 /* Assets.xcassets */,
 				257AD9472A07C4E600688C03 /* Preview Content */,
+				257AD94F2A07D04400688C03 /* onBoeardingData.swift */,
+				257AD9512A07D46B00688C03 /* onBoreading.swift */,
 			);
 			path = CoachMe;
 			sourceTree = "<group>";
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				257AD9522A07D46B00688C03 /* onBoreading.swift in Sources */,
 				257AD9442A07C4E500688C03 /* ContentView.swift in Sources */,
 				257AD9422A07C4E500688C03 /* CoachMeApp.swift in Sources */,
+				257AD9502A07D04400688C03 /* onBoeardingData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
