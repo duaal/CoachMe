@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		250BAF552A0BB79B006B3490 /* chartData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250BAF542A0BB79B006B3490 /* chartData.swift */; };
+		250BAF572A0BB7A8006B3490 /* chartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250BAF562A0BB7A8006B3490 /* chartView.swift */; };
+		250BAF592A13B7B9006B3490 /* textModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250BAF582A13B7B9006B3490 /* textModifier.swift */; };
+		250BAF5B2A16C26E006B3490 /* healthStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250BAF5A2A16C26E006B3490 /* healthStore.swift */; };
+		250BAF5D2A16C2C2006B3490 /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250BAF5C2A16C2C2006B3490 /* test.swift */; };
+		250BAF612A1A3A16006B3490 /* Step.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250BAF602A1A3A16006B3490 /* Step.swift */; };
+		250BAF652A1CF2CE006B3490 /* piecahartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250BAF642A1CF2CE006B3490 /* piecahartView.swift */; };
+		250BAF6A2A1CF637006B3490 /* SwiftPieChart in Frameworks */ = {isa = PBXBuildFile; productRef = 250BAF692A1CF637006B3490 /* SwiftPieChart */; };
+		250BAF6C2A1D07A4006B3490 /* chartsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250BAF6B2A1D07A4006B3490 /* chartsView.swift */; };
 		257AD9422A07C4E500688C03 /* CoachMeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257AD9412A07C4E500688C03 /* CoachMeApp.swift */; };
 		257AD9442A07C4E500688C03 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257AD9432A07C4E500688C03 /* ContentView.swift */; };
 		257AD9462A07C4E600688C03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 257AD9452A07C4E600688C03 /* Assets.xcassets */; };
@@ -16,6 +25,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		250BAF542A0BB79B006B3490 /* chartData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chartData.swift; sourceTree = "<group>"; };
+		250BAF562A0BB7A8006B3490 /* chartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chartView.swift; sourceTree = "<group>"; };
+		250BAF582A13B7B9006B3490 /* textModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = textModifier.swift; sourceTree = "<group>"; };
+		250BAF5A2A16C26E006B3490 /* healthStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = healthStore.swift; sourceTree = "<group>"; };
+		250BAF5C2A16C2C2006B3490 /* test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
+		250BAF5E2A16C3A7006B3490 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		250BAF5F2A16C80C006B3490 /* CoachMe.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CoachMe.entitlements; sourceTree = "<group>"; };
+		250BAF602A1A3A16006B3490 /* Step.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Step.swift; sourceTree = "<group>"; };
+		250BAF642A1CF2CE006B3490 /* piecahartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = piecahartView.swift; sourceTree = "<group>"; };
+		250BAF6B2A1D07A4006B3490 /* chartsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chartsView.swift; sourceTree = "<group>"; };
 		257AD93E2A07C4E500688C03 /* CoachMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoachMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		257AD9412A07C4E500688C03 /* CoachMeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoachMeApp.swift; sourceTree = "<group>"; };
 		257AD9432A07C4E500688C03 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -30,12 +49,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				250BAF6A2A1CF637006B3490 /* SwiftPieChart in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		250BAF672A1CF2E8006B3490 /* chartViewa */ = {
+			isa = PBXGroup;
+			children = (
+				250BAF642A1CF2CE006B3490 /* piecahartView.swift */,
+				250BAF6B2A1D07A4006B3490 /* chartsView.swift */,
+			);
+			path = chartViewa;
+			sourceTree = "<group>";
+		};
 		257AD9352A07C4E500688C03 = {
 			isa = PBXGroup;
 			children = (
@@ -55,12 +84,18 @@
 		257AD9402A07C4E500688C03 /* CoachMe */ = {
 			isa = PBXGroup;
 			children = (
+				250BAF5F2A16C80C006B3490 /* CoachMe.entitlements */,
+				250BAF5E2A16C3A7006B3490 /* Info.plist */,
 				257AD9412A07C4E500688C03 /* CoachMeApp.swift */,
 				257AD9432A07C4E500688C03 /* ContentView.swift */,
 				257AD9452A07C4E600688C03 /* Assets.xcassets */,
 				257AD9472A07C4E600688C03 /* Preview Content */,
 				257AD94F2A07D04400688C03 /* onBoeardingData.swift */,
 				257AD9512A07D46B00688C03 /* onBoreading.swift */,
+				250BAF542A0BB79B006B3490 /* chartData.swift */,
+				250BAF672A1CF2E8006B3490 /* chartViewa */,
+				250BAF5A2A16C26E006B3490 /* healthStore.swift */,
+				250BAF562A0BB7A8006B3490 /* chartView.swift */,
 			);
 			path = CoachMe;
 			sourceTree = "<group>";
@@ -69,6 +104,9 @@
 			isa = PBXGroup;
 			children = (
 				257AD9482A07C4E600688C03 /* Preview Assets.xcassets */,
+				250BAF582A13B7B9006B3490 /* textModifier.swift */,
+				250BAF5C2A16C2C2006B3490 /* test.swift */,
+				250BAF602A1A3A16006B3490 /* Step.swift */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -89,6 +127,9 @@
 			dependencies = (
 			);
 			name = CoachMe;
+			packageProductDependencies = (
+				250BAF692A1CF637006B3490 /* SwiftPieChart */,
+			);
 			productName = CoachMe;
 			productReference = 257AD93E2A07C4E500688C03 /* CoachMe.app */;
 			productType = "com.apple.product-type.application";
@@ -117,6 +158,9 @@
 				Base,
 			);
 			mainGroup = 257AD9352A07C4E500688C03;
+			packageReferences = (
+				250BAF682A1CF637006B3490 /* XCRemoteSwiftPackageReference "SwiftPieChart" */,
+			);
 			productRefGroup = 257AD93F2A07C4E500688C03 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -143,10 +187,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				250BAF592A13B7B9006B3490 /* textModifier.swift in Sources */,
 				257AD9522A07D46B00688C03 /* onBoreading.swift in Sources */,
+				250BAF6C2A1D07A4006B3490 /* chartsView.swift in Sources */,
 				257AD9442A07C4E500688C03 /* ContentView.swift in Sources */,
 				257AD9422A07C4E500688C03 /* CoachMeApp.swift in Sources */,
+				250BAF5D2A16C2C2006B3490 /* test.swift in Sources */,
 				257AD9502A07D04400688C03 /* onBoeardingData.swift in Sources */,
+				250BAF552A0BB79B006B3490 /* chartData.swift in Sources */,
+				250BAF612A1A3A16006B3490 /* Step.swift in Sources */,
+				250BAF572A0BB7A8006B3490 /* chartView.swift in Sources */,
+				250BAF652A1CF2CE006B3490 /* piecahartView.swift in Sources */,
+				250BAF5B2A16C26E006B3490 /* healthStore.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,12 +324,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CoachMe/CoachMe.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"CoachMe/Preview Content\"";
 				DEVELOPMENT_TEAM = YTTR5V58U3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CoachMe/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -301,12 +355,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CoachMe/CoachMe.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"CoachMe/Preview Content\"";
 				DEVELOPMENT_TEAM = YTTR5V58U3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CoachMe/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -347,6 +403,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		250BAF682A1CF637006B3490 /* XCRemoteSwiftPackageReference "SwiftPieChart" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ilamanov/SwiftPieChart";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		250BAF692A1CF637006B3490 /* SwiftPieChart */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 250BAF682A1CF637006B3490 /* XCRemoteSwiftPackageReference "SwiftPieChart" */;
+			productName = SwiftPieChart;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 257AD9362A07C4E500688C03 /* Project object */;
 }
