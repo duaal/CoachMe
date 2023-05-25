@@ -173,12 +173,12 @@ struct test: View {
                             
                         }
                     }
-                    let s = await healthStore.readWorkouts()
-                    let m = await healthStore.getWorkoutRoute(workout: (s?.first!)!)
-                    print(m?.debugDescription)
-                    print(m?.description)
-                    print(m?.first.debugDescription)
-                    print(m?.first?.description)
+//                    let s = await healthStore.readWorkouts()
+//                    let m = await healthStore.getWorkoutRoute(workout: (s?.first!)!)
+//                    print(m?.debugDescription)
+//                    print(m?.description)
+//                    print(m?.first.debugDescription)
+//                    print(m?.first?.description)
                 }
             }
             

@@ -165,7 +165,7 @@ struct RateView : View {
                 Spacer()
                 Image(systemName: "heart.fill")
                     .font(.system(size: 36)).foregroundColor(Color("red"))
-                Text("\(Int (heartRate))").font(.system(size: 39 , weight: .bold)).foregroundColor(.white).minimumScaleFactor(0.9)
+                Text("\(Int (heartRate))").font(.system(size: 39 , weight: .bold)).foregroundColor(.white).minimumScaleFactor(0.7)
                 Text("bpm").modifier(Tag())
                 Spacer()
                 

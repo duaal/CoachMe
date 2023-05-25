@@ -29,24 +29,18 @@ class HealthStore {
     }
     // autherization function allow permssion
     func requestAuteraziation(compliation:@escaping (Bool) -> (Void)) async{
-//        let stepType = HKQuantityType.quantityType(forIdentifier: HKQuantityTypeIdentifier.stepCount)!
-//        let heartRate = HKQuantityType.quantityType(forIdentifier: HKQuantityTypeIdentifier.heartRate)!
-//        let caloriesBurned = HKQuantityType.quantityType(forIdentifier: HKQuantityTypeIdentifier.activeEnergyBurned)!
-//        let activitey = HKQuantityType.quantityType(forIdentifier: HKQuantityTypeIdentifier.appleExerciseTime)!
+        let stepType = HKQuantityType.quantityType(forIdentifier: HKQuantityTypeIdentifier.stepCount)!
+        let heartRate = HKQuantityType.quantityType(forIdentifier: HKQuantityTypeIdentifier.heartRate)!
+        let caloriesBurned = HKQuantityType.quantityType(forIdentifier: HKQuantityTypeIdentifier.activeEnergyBurned)!
+        let activitey = HKQuantityType.quantityType(forIdentifier: HKQuantityTypeIdentifier.appleExerciseTime)!
         guard let healthStore = self.healthStore else {return  compliation(false)}
         
-        let write: Set<HKSampleType> = [.workoutType()]
-        let read: Set = [
-                .workoutType(),
-                HKSeriesType.activitySummaryType(),
-                HKSeriesType.workoutRoute(),
-                HKSeriesType.workoutType()
-        ]
         
-        await healthStore.requestAuthorization(toShare: write, read: read, completion: { cheak, error in
-            
-          compliation(cheak)
-        })
+        
+        healthStore.requestAuthorization(toShare: [], read: [stepType,heartRate,caloriesBurned,activitey]){
+            (sucess, error) in
+            compliation(sucess)
+        }
         //(toShare: write, read: read)
 //        guard res != nil else {
 //            return false
@@ -121,55 +115,55 @@ class HealthStore {
         //reading acyivites from health app
     }
     
-    func getWorkoutRoute(workout: HKWorkout) async -> [HKWorkoutRoute]? {
-        let byWorkout = HKQuery.predicateForObjects(from: workout)
-
-        let samples = try! await withCheckedThrowingContinuation { (continuation: CheckedContinuation<[HKSample], Error>) in
-            healthStore?.execute(HKAnchoredObjectQuery(type: HKSeriesType.workoutRoute(), predicate: byWorkout, anchor: nil, limit: HKObjectQueryNoLimit, resultsHandler: { (query, samples, deletedObjects, anchor, error) in
-                if let hasError = error {
-                    continuation.resume(throwing: hasError)
-                    return
-                }
-
-                guard let samples = samples else {
-                    return
-                }
-
-                continuation.resume(returning: samples)
-            }))
-        }
-
-        guard let workouts = samples as? [HKWorkoutRoute] else {
-            return nil
-        }
-
-        return workouts
-    }
-    func readWorkouts() async -> [HKWorkout]? {
-        let cycling = HKQuery.predicateForWorkouts(with: .cycling)
-
-        let samples = try! await withCheckedThrowingContinuation { (continuation: CheckedContinuation<[HKSample], Error>) in
-            healthStore?.execute(HKSampleQuery(sampleType: .workoutType(), predicate: cycling, limit: HKObjectQueryNoLimit,sortDescriptors: [.init(keyPath: \HKSample.startDate, ascending: false)], resultsHandler: { query, samples, error in
-                if let hasError = error {
-                    continuation.resume(throwing: hasError)
-                    return
-                }
-                guard let samples = samples else {
-                    fatalError("*** Invalid State: This can only fail if there was an error. ***")
-                }
-                
-                continuation.resume(returning: samples)
-                print(samples.count)
-            }))
-        }
-
-        guard let workouts = samples as? [HKWorkout] else {
-            return nil
-        }
-        
-//        print(wo)
-        return workouts
-    }
+//    func getWorkoutRoute(workout: HKWorkout) async -> [HKWorkoutRoute]? {
+//        let byWorkout = HKQuery.predicateForObjects(from: workout)
+//
+//        let samples = try! await withCheckedThrowingContinuation { (continuation: CheckedContinuation<[HKSample], Error>) in
+//            healthStore?.execute(HKAnchoredObjectQuery(type: HKSeriesType.workoutRoute(), predicate: byWorkout, anchor: nil, limit: HKObjectQueryNoLimit, resultsHandler: { (query, samples, deletedObjects, anchor, error) in
+//                if let hasError = error {
+//                    continuation.resume(throwing: hasError)
+//                    return
+//                }
+//
+//                guard let samples = samples else {
+//                    return
+//                }
+//
+//                continuation.resume(returning: samples)
+//            }))
+//        }
+//
+//        guard let workouts = samples as? [HKWorkoutRoute] else {
+//            return nil
+//        }
+//
+//        return workouts
+//    }
+//    func readWorkouts() async -> [HKWorkout]? {
+//        let cycling = HKQuery.predicateForWorkouts(with: .cycling)
+//
+//        let samples = try! await withCheckedThrowingContinuation { (continuation: CheckedContinuation<[HKSample], Error>) in
+//            healthStore?.execute(HKSampleQuery(sampleType: .workoutType(), predicate: cycling, limit: HKObjectQueryNoLimit,sortDescriptors: [.init(keyPath: \HKSample.startDate, ascending: false)], resultsHandler: { query, samples, error in
+//                if let hasError = error {
+//                    continuation.resume(throwing: hasError)
+//                    return
+//                }
+//                guard let samples = samples else {
+//                    fatalError("*** Invalid State: This can only fail if there was an error. ***")
+//                }
+//
+//                continuation.resume(returning: samples)
+//                print(samples.count)
+//            }))
+//        }
+//
+//        guard let workouts = samples as? [HKWorkout] else {
+//            return nil
+//        }
+//
+////        print(wo)
+//        return workouts
+//    }
     func calcualteActivitey(complation :@escaping (HKStatisticsCollection?) ->(Void)){
         
         var query :HKStatisticsCollectionQuery
