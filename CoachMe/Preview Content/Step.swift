@@ -6,6 +6,7 @@
 //
 import HealthKit
 import Foundation
+import Foundation
 struct Step:Identifiable,Hashable {
     let id = UUID()
     let count:Int

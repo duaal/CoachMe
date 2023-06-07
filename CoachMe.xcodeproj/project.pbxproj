@@ -13,15 +13,30 @@
 		250BAF5B2A16C26E006B3490 /* healthStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250BAF5A2A16C26E006B3490 /* healthStore.swift */; };
 		250BAF5D2A16C2C2006B3490 /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250BAF5C2A16C2C2006B3490 /* test.swift */; };
 		250BAF612A1A3A16006B3490 /* Step.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250BAF602A1A3A16006B3490 /* Step.swift */; };
-		250BAF652A1CF2CE006B3490 /* piecahartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250BAF642A1CF2CE006B3490 /* piecahartView.swift */; };
 		250BAF6A2A1CF637006B3490 /* SwiftPieChart in Frameworks */ = {isa = PBXBuildFile; productRef = 250BAF692A1CF637006B3490 /* SwiftPieChart */; };
 		250BAF6C2A1D07A4006B3490 /* chartsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250BAF6B2A1D07A4006B3490 /* chartsView.swift */; };
+		250BAF6E2A262FE6006B3490 /* splachScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250BAF6D2A262FE6006B3490 /* splachScreen.swift */; };
+		250BAF702A2637A2006B3490 /* HealthLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250BAF6F2A2637A2006B3490 /* HealthLog.swift */; };
+		250BAF722A263AF4006B3490 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250BAF712A263AF4006B3490 /* Main.swift */; };
+		250BAF742A263B9F006B3490 /* Nav.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250BAF732A263B9F006B3490 /* Nav.swift */; };
+		250BAF762A264365006B3490 /* Fav.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250BAF752A264365006B3490 /* Fav.swift */; };
+		250BAF782A2650E4006B3490 /* exerciseStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250BAF772A2650E4006B3490 /* exerciseStruct.swift */; };
+		250BAF7A2A2654CE006B3490 /* exerciseCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250BAF792A2654CE006B3490 /* exerciseCard.swift */; };
+		250BAF7C2A2674F1006B3490 /* captureVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250BAF7B2A2674F1006B3490 /* captureVideo.swift */; };
+		250BAF7E2A267595006B3490 /* viewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250BAF7D2A267595006B3490 /* viewController.swift */; };
+		250BAF802A2675CC006B3490 /* Detector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250BAF7F2A2675CC006B3490 /* Detector.swift */; };
+		250BAF842A267C4A006B3490 /* VideoCaptuer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250BAF832A267C4A006B3490 /* VideoCaptuer.swift */; };
+		250F40BB2A276D66001AFDA4 /* DetailsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250F40BA2A276D66001AFDA4 /* DetailsPage.swift */; };
+		250F40BD2A27820F001AFDA4 /* GifView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250F40BC2A27820F001AFDA4 /* GifView.swift */; };
+		250F40BF2A278299001AFDA4 /* mini-squat-gif.gif in Resources */ = {isa = PBXBuildFile; fileRef = 250F40BE2A278299001AFDA4 /* mini-squat-gif.gif */; };
+		250F40C22A28C5CD001AFDA4 /* Predicate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250F40C12A28C5CD001AFDA4 /* Predicate.swift */; };
 		257AD9422A07C4E500688C03 /* CoachMeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257AD9412A07C4E500688C03 /* CoachMeApp.swift */; };
 		257AD9442A07C4E500688C03 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257AD9432A07C4E500688C03 /* ContentView.swift */; };
 		257AD9462A07C4E600688C03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 257AD9452A07C4E600688C03 /* Assets.xcassets */; };
 		257AD9492A07C4E600688C03 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 257AD9482A07C4E600688C03 /* Preview Assets.xcassets */; };
 		257AD9502A07D04400688C03 /* onBoeardingData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257AD94F2A07D04400688C03 /* onBoeardingData.swift */; };
 		257AD9522A07D46B00688C03 /* onBoreading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257AD9512A07D46B00688C03 /* onBoreading.swift */; };
+		25AE76DB2A30A877008D8980 /* ExerciseInstruction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25AE76DA2A30A877008D8980 /* ExerciseInstruction.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,8 +48,22 @@
 		250BAF5E2A16C3A7006B3490 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		250BAF5F2A16C80C006B3490 /* CoachMe.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CoachMe.entitlements; sourceTree = "<group>"; };
 		250BAF602A1A3A16006B3490 /* Step.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Step.swift; sourceTree = "<group>"; };
-		250BAF642A1CF2CE006B3490 /* piecahartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = piecahartView.swift; sourceTree = "<group>"; };
 		250BAF6B2A1D07A4006B3490 /* chartsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chartsView.swift; sourceTree = "<group>"; };
+		250BAF6D2A262FE6006B3490 /* splachScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = splachScreen.swift; sourceTree = "<group>"; };
+		250BAF6F2A2637A2006B3490 /* HealthLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthLog.swift; sourceTree = "<group>"; };
+		250BAF712A263AF4006B3490 /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
+		250BAF732A263B9F006B3490 /* Nav.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nav.swift; sourceTree = "<group>"; };
+		250BAF752A264365006B3490 /* Fav.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fav.swift; sourceTree = "<group>"; };
+		250BAF772A2650E4006B3490 /* exerciseStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = exerciseStruct.swift; sourceTree = "<group>"; };
+		250BAF792A2654CE006B3490 /* exerciseCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = exerciseCard.swift; sourceTree = "<group>"; };
+		250BAF7B2A2674F1006B3490 /* captureVideo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = captureVideo.swift; sourceTree = "<group>"; };
+		250BAF7D2A267595006B3490 /* viewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viewController.swift; sourceTree = "<group>"; };
+		250BAF7F2A2675CC006B3490 /* Detector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Detector.swift; sourceTree = "<group>"; };
+		250BAF832A267C4A006B3490 /* VideoCaptuer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCaptuer.swift; sourceTree = "<group>"; };
+		250F40BA2A276D66001AFDA4 /* DetailsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsPage.swift; sourceTree = "<group>"; };
+		250F40BC2A27820F001AFDA4 /* GifView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifView.swift; sourceTree = "<group>"; };
+		250F40BE2A278299001AFDA4 /* mini-squat-gif.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = "mini-squat-gif.gif"; path = "../../mini-squat-gif.gif"; sourceTree = "<group>"; };
+		250F40C12A28C5CD001AFDA4 /* Predicate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Predicate.swift; sourceTree = "<group>"; };
 		257AD93E2A07C4E500688C03 /* CoachMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoachMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		257AD9412A07C4E500688C03 /* CoachMeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoachMeApp.swift; sourceTree = "<group>"; };
 		257AD9432A07C4E500688C03 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -42,6 +71,7 @@
 		257AD9482A07C4E600688C03 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		257AD94F2A07D04400688C03 /* onBoeardingData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onBoeardingData.swift; sourceTree = "<group>"; };
 		257AD9512A07D46B00688C03 /* onBoreading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onBoreading.swift; sourceTree = "<group>"; };
+		25AE76DA2A30A877008D8980 /* ExerciseInstruction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseInstruction.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,13 +86,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		250BAF672A1CF2E8006B3490 /* chartViewa */ = {
+		250BAF672A1CF2E8006B3490 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				250BAF642A1CF2CE006B3490 /* piecahartView.swift */,
+				250BAF582A13B7B9006B3490 /* textModifier.swift */,
 				250BAF6B2A1D07A4006B3490 /* chartsView.swift */,
+				250BAF732A263B9F006B3490 /* Nav.swift */,
+				250BAF792A2654CE006B3490 /* exerciseCard.swift */,
+				250F40BA2A276D66001AFDA4 /* DetailsPage.swift */,
 			);
-			path = chartViewa;
+			path = View;
 			sourceTree = "<group>";
 		};
 		257AD9352A07C4E500688C03 = {
@@ -93,9 +126,22 @@
 				257AD94F2A07D04400688C03 /* onBoeardingData.swift */,
 				257AD9512A07D46B00688C03 /* onBoreading.swift */,
 				250BAF542A0BB79B006B3490 /* chartData.swift */,
-				250BAF672A1CF2E8006B3490 /* chartViewa */,
+				250BAF672A1CF2E8006B3490 /* View */,
 				250BAF5A2A16C26E006B3490 /* healthStore.swift */,
 				250BAF562A0BB7A8006B3490 /* chartView.swift */,
+				250BAF6D2A262FE6006B3490 /* splachScreen.swift */,
+				250BAF6F2A2637A2006B3490 /* HealthLog.swift */,
+				250BAF712A263AF4006B3490 /* Main.swift */,
+				250BAF752A264365006B3490 /* Fav.swift */,
+				250BAF772A2650E4006B3490 /* exerciseStruct.swift */,
+				250BAF7B2A2674F1006B3490 /* captureVideo.swift */,
+				250BAF7D2A267595006B3490 /* viewController.swift */,
+				250BAF7F2A2675CC006B3490 /* Detector.swift */,
+				250BAF832A267C4A006B3490 /* VideoCaptuer.swift */,
+				250F40BC2A27820F001AFDA4 /* GifView.swift */,
+				250F40BE2A278299001AFDA4 /* mini-squat-gif.gif */,
+				250F40C12A28C5CD001AFDA4 /* Predicate.swift */,
+				25AE76DA2A30A877008D8980 /* ExerciseInstruction.swift */,
 			);
 			path = CoachMe;
 			sourceTree = "<group>";
@@ -104,7 +150,6 @@
 			isa = PBXGroup;
 			children = (
 				257AD9482A07C4E600688C03 /* Preview Assets.xcassets */,
-				250BAF582A13B7B9006B3490 /* textModifier.swift */,
 				250BAF5C2A16C2C2006B3490 /* test.swift */,
 				250BAF602A1A3A16006B3490 /* Step.swift */,
 			);
@@ -175,6 +220,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				250F40BF2A278299001AFDA4 /* mini-squat-gif.gif in Resources */,
 				257AD9492A07C4E600688C03 /* Preview Assets.xcassets in Resources */,
 				257AD9462A07C4E600688C03 /* Assets.xcassets in Resources */,
 			);
@@ -187,18 +233,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				250BAF722A263AF4006B3490 /* Main.swift in Sources */,
+				250F40BD2A27820F001AFDA4 /* GifView.swift in Sources */,
 				250BAF592A13B7B9006B3490 /* textModifier.swift in Sources */,
+				250BAF7C2A2674F1006B3490 /* captureVideo.swift in Sources */,
 				257AD9522A07D46B00688C03 /* onBoreading.swift in Sources */,
+				250BAF702A2637A2006B3490 /* HealthLog.swift in Sources */,
 				250BAF6C2A1D07A4006B3490 /* chartsView.swift in Sources */,
 				257AD9442A07C4E500688C03 /* ContentView.swift in Sources */,
 				257AD9422A07C4E500688C03 /* CoachMeApp.swift in Sources */,
+				250BAF802A2675CC006B3490 /* Detector.swift in Sources */,
 				250BAF5D2A16C2C2006B3490 /* test.swift in Sources */,
 				257AD9502A07D04400688C03 /* onBoeardingData.swift in Sources */,
+				250F40BB2A276D66001AFDA4 /* DetailsPage.swift in Sources */,
+				250BAF7E2A267595006B3490 /* viewController.swift in Sources */,
+				250BAF742A263B9F006B3490 /* Nav.swift in Sources */,
 				250BAF552A0BB79B006B3490 /* chartData.swift in Sources */,
+				25AE76DB2A30A877008D8980 /* ExerciseInstruction.swift in Sources */,
+				250BAF762A264365006B3490 /* Fav.swift in Sources */,
+				250BAF6E2A262FE6006B3490 /* splachScreen.swift in Sources */,
+				250BAF782A2650E4006B3490 /* exerciseStruct.swift in Sources */,
 				250BAF612A1A3A16006B3490 /* Step.swift in Sources */,
+				250BAF7A2A2654CE006B3490 /* exerciseCard.swift in Sources */,
 				250BAF572A0BB7A8006B3490 /* chartView.swift in Sources */,
-				250BAF652A1CF2CE006B3490 /* piecahartView.swift in Sources */,
+				250F40C22A28C5CD001AFDA4 /* Predicate.swift in Sources */,
 				250BAF5B2A16C26E006B3490 /* healthStore.swift in Sources */,
+				250BAF842A267C4A006B3490 /* VideoCaptuer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -332,11 +392,15 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CoachMe/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "allow camera to start exercising";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "This app requires access to your health data";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "This app requires access to your health data";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -363,11 +427,15 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CoachMe/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "allow camera to start exercising";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "This app requires access to your health data";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "This app requires access to your health data";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

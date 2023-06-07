@@ -11,7 +11,7 @@ import SwiftUI
 struct CoachMeApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            splachScreen()
         }
     }
 }
