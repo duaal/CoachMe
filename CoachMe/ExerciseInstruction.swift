@@ -9,10 +9,18 @@ import SwiftUI
 
 struct ExerciseInstruction: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        
+        VStack(alignment: .center){
+            HStack{
+                Image(systemName: "megaphone").foregroundColor(.white).font(.system(size: 50,weight: .bold))
+                Text("Coming Soon ").foregroundColor(.white).font(.system(size: 30,weight: .bold)).padding(.bottom,2)
+            }
+            Text("Stay Tuned ").foregroundColor(.white).font(.system(size: 30,weight: .bold))
+            
+            
+        }.frame(maxWidth: .infinity,maxHeight: .infinity).background(Color("primary"))
     }
 }
-
 struct ExerciseInstruction_Previews: PreviewProvider {
     static var previews: some View {
         ExerciseInstruction()

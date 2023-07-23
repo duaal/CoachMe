@@ -44,7 +44,7 @@ struct Bodyfont: ViewModifier {
 }
 struct Navfont : ViewModifier {
     func body (content:Content) -> some View {
-        content.font (.system(size : 10 ,weight: .bold))
+        content.font (.system(size : 12 ,weight: .bold))
     }
 }
 //24 reguler

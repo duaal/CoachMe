@@ -59,7 +59,7 @@ struct onBoreading: View {
                 }
             }}
         else {
-            Nav()
+            Main()
         }
     }
       

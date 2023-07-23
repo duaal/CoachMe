@@ -12,6 +12,7 @@ struct pageInfo {
     let title:String
     let paragraph :String
     let image :String
+    
 }
 extension pageInfo{
     static func all() -> [pageInfo]{

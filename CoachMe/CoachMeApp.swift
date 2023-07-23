@@ -10,8 +10,14 @@ import SwiftUI
 @main
 struct CoachMeApp: App {
     var body: some Scene {
+
         WindowGroup {
-            splachScreen()
+            let _ = UserDefaults.standard.set(false, forKey: "_UIConstraintBasedLayoutLogUnsatisfiable")
+                     let _ = print(FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first!.path)
+                
+                splachScreen()
+                
+            
         }
     }
 }

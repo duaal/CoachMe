@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		250BAF552A0BB79B006B3490 /* chartData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250BAF542A0BB79B006B3490 /* chartData.swift */; };
-		250BAF572A0BB7A8006B3490 /* chartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250BAF562A0BB7A8006B3490 /* chartView.swift */; };
 		250BAF592A13B7B9006B3490 /* textModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250BAF582A13B7B9006B3490 /* textModifier.swift */; };
 		250BAF5B2A16C26E006B3490 /* healthStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250BAF5A2A16C26E006B3490 /* healthStore.swift */; };
 		250BAF5D2A16C2C2006B3490 /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250BAF5C2A16C2C2006B3490 /* test.swift */; };
@@ -18,18 +16,11 @@
 		250BAF6E2A262FE6006B3490 /* splachScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250BAF6D2A262FE6006B3490 /* splachScreen.swift */; };
 		250BAF702A2637A2006B3490 /* HealthLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250BAF6F2A2637A2006B3490 /* HealthLog.swift */; };
 		250BAF722A263AF4006B3490 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250BAF712A263AF4006B3490 /* Main.swift */; };
-		250BAF742A263B9F006B3490 /* Nav.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250BAF732A263B9F006B3490 /* Nav.swift */; };
-		250BAF762A264365006B3490 /* Fav.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250BAF752A264365006B3490 /* Fav.swift */; };
 		250BAF782A2650E4006B3490 /* exerciseStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250BAF772A2650E4006B3490 /* exerciseStruct.swift */; };
 		250BAF7A2A2654CE006B3490 /* exerciseCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250BAF792A2654CE006B3490 /* exerciseCard.swift */; };
-		250BAF7C2A2674F1006B3490 /* captureVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250BAF7B2A2674F1006B3490 /* captureVideo.swift */; };
-		250BAF7E2A267595006B3490 /* viewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250BAF7D2A267595006B3490 /* viewController.swift */; };
-		250BAF802A2675CC006B3490 /* Detector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250BAF7F2A2675CC006B3490 /* Detector.swift */; };
-		250BAF842A267C4A006B3490 /* VideoCaptuer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250BAF832A267C4A006B3490 /* VideoCaptuer.swift */; };
 		250F40BB2A276D66001AFDA4 /* DetailsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250F40BA2A276D66001AFDA4 /* DetailsPage.swift */; };
 		250F40BD2A27820F001AFDA4 /* GifView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250F40BC2A27820F001AFDA4 /* GifView.swift */; };
-		250F40BF2A278299001AFDA4 /* mini-squat-gif.gif in Resources */ = {isa = PBXBuildFile; fileRef = 250F40BE2A278299001AFDA4 /* mini-squat-gif.gif */; };
-		250F40C22A28C5CD001AFDA4 /* Predicate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250F40C12A28C5CD001AFDA4 /* Predicate.swift */; };
+		252A3AF72A335C870078C7E8 /* squat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 252A3AF62A335C870078C7E8 /* squat.swift */; };
 		257AD9422A07C4E500688C03 /* CoachMeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257AD9412A07C4E500688C03 /* CoachMeApp.swift */; };
 		257AD9442A07C4E500688C03 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257AD9432A07C4E500688C03 /* ContentView.swift */; };
 		257AD9462A07C4E600688C03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 257AD9452A07C4E600688C03 /* Assets.xcassets */; };
@@ -37,11 +28,20 @@
 		257AD9502A07D04400688C03 /* onBoeardingData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257AD94F2A07D04400688C03 /* onBoeardingData.swift */; };
 		257AD9522A07D46B00688C03 /* onBoreading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257AD9512A07D46B00688C03 /* onBoreading.swift */; };
 		25AE76DB2A30A877008D8980 /* ExerciseInstruction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25AE76DA2A30A877008D8980 /* ExerciseInstruction.swift */; };
+		25AE76DD2A30BEE3008D8980 /* beforeCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25AE76DC2A30BEE3008D8980 /* beforeCounter.swift */; };
+		25B28CC62A6D451E00A63DF9 /* Squat 2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 25B28CC52A6D451E00A63DF9 /* Squat 2.mlmodel */; };
+		25B28CC82A6D453400A63DF9 /* Squat 5.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 25B28CC72A6D453400A63DF9 /* Squat 5.mlmodel */; };
+		25B28CCA2A6D458300A63DF9 /* jump.gif in Resources */ = {isa = PBXBuildFile; fileRef = 25B28CC92A6D458300A63DF9 /* jump.gif */; };
+		25B28CCC2A6D45C300A63DF9 /* mini-squat-gif.gif in Resources */ = {isa = PBXBuildFile; fileRef = 25B28CCB2A6D45C300A63DF9 /* mini-squat-gif.gif */; };
+		25B28CCE2A6D45CA00A63DF9 /* pushups.gif in Resources */ = {isa = PBXBuildFile; fileRef = 25B28CCD2A6D45CA00A63DF9 /* pushups.gif */; };
+		25C41B902A35E9D1008F8A5D /* comingSoon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C41B8F2A35E9D1008F8A5D /* comingSoon.swift */; };
+		25E278472A33B74A0082AD3F /* ViewControllerSquat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E278462A33B74A0082AD3F /* ViewControllerSquat.swift */; };
+		25E278492A33B7760082AD3F /* VideoCaptuer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E278482A33B7760082AD3F /* VideoCaptuer.swift */; };
+		25E2784B2A33B7930082AD3F /* predictor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E2784A2A33B7930082AD3F /* predictor.swift */; };
+		25E2784F2A33B81A0082AD3F /* squatAI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E2784E2A33B81A0082AD3F /* squatAI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		250BAF542A0BB79B006B3490 /* chartData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chartData.swift; sourceTree = "<group>"; };
-		250BAF562A0BB7A8006B3490 /* chartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chartView.swift; sourceTree = "<group>"; };
 		250BAF582A13B7B9006B3490 /* textModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = textModifier.swift; sourceTree = "<group>"; };
 		250BAF5A2A16C26E006B3490 /* healthStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = healthStore.swift; sourceTree = "<group>"; };
 		250BAF5C2A16C2C2006B3490 /* test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
@@ -52,18 +52,11 @@
 		250BAF6D2A262FE6006B3490 /* splachScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = splachScreen.swift; sourceTree = "<group>"; };
 		250BAF6F2A2637A2006B3490 /* HealthLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthLog.swift; sourceTree = "<group>"; };
 		250BAF712A263AF4006B3490 /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
-		250BAF732A263B9F006B3490 /* Nav.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nav.swift; sourceTree = "<group>"; };
-		250BAF752A264365006B3490 /* Fav.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fav.swift; sourceTree = "<group>"; };
 		250BAF772A2650E4006B3490 /* exerciseStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = exerciseStruct.swift; sourceTree = "<group>"; };
 		250BAF792A2654CE006B3490 /* exerciseCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = exerciseCard.swift; sourceTree = "<group>"; };
-		250BAF7B2A2674F1006B3490 /* captureVideo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = captureVideo.swift; sourceTree = "<group>"; };
-		250BAF7D2A267595006B3490 /* viewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viewController.swift; sourceTree = "<group>"; };
-		250BAF7F2A2675CC006B3490 /* Detector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Detector.swift; sourceTree = "<group>"; };
-		250BAF832A267C4A006B3490 /* VideoCaptuer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCaptuer.swift; sourceTree = "<group>"; };
 		250F40BA2A276D66001AFDA4 /* DetailsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsPage.swift; sourceTree = "<group>"; };
 		250F40BC2A27820F001AFDA4 /* GifView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifView.swift; sourceTree = "<group>"; };
-		250F40BE2A278299001AFDA4 /* mini-squat-gif.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = "mini-squat-gif.gif"; path = "../../mini-squat-gif.gif"; sourceTree = "<group>"; };
-		250F40C12A28C5CD001AFDA4 /* Predicate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Predicate.swift; sourceTree = "<group>"; };
+		252A3AF62A335C870078C7E8 /* squat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = squat.swift; sourceTree = "<group>"; };
 		257AD93E2A07C4E500688C03 /* CoachMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoachMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		257AD9412A07C4E500688C03 /* CoachMeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoachMeApp.swift; sourceTree = "<group>"; };
 		257AD9432A07C4E500688C03 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -72,6 +65,17 @@
 		257AD94F2A07D04400688C03 /* onBoeardingData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onBoeardingData.swift; sourceTree = "<group>"; };
 		257AD9512A07D46B00688C03 /* onBoreading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onBoreading.swift; sourceTree = "<group>"; };
 		25AE76DA2A30A877008D8980 /* ExerciseInstruction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseInstruction.swift; sourceTree = "<group>"; };
+		25AE76DC2A30BEE3008D8980 /* beforeCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = beforeCounter.swift; sourceTree = "<group>"; };
+		25B28CC52A6D451E00A63DF9 /* Squat 2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = "Squat 2.mlmodel"; sourceTree = "<group>"; };
+		25B28CC72A6D453400A63DF9 /* Squat 5.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = "Squat 5.mlmodel"; sourceTree = "<group>"; };
+		25B28CC92A6D458300A63DF9 /* jump.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = jump.gif; sourceTree = "<group>"; };
+		25B28CCB2A6D45C300A63DF9 /* mini-squat-gif.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "mini-squat-gif.gif"; sourceTree = "<group>"; };
+		25B28CCD2A6D45CA00A63DF9 /* pushups.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = pushups.gif; sourceTree = "<group>"; };
+		25C41B8F2A35E9D1008F8A5D /* comingSoon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = comingSoon.swift; sourceTree = "<group>"; };
+		25E278462A33B74A0082AD3F /* ViewControllerSquat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerSquat.swift; sourceTree = "<group>"; };
+		25E278482A33B7760082AD3F /* VideoCaptuer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCaptuer.swift; sourceTree = "<group>"; };
+		25E2784A2A33B7930082AD3F /* predictor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = predictor.swift; sourceTree = "<group>"; };
+		25E2784E2A33B81A0082AD3F /* squatAI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = squatAI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,11 +93,12 @@
 		250BAF672A1CF2E8006B3490 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				25B28CC92A6D458300A63DF9 /* jump.gif */,
 				250BAF582A13B7B9006B3490 /* textModifier.swift */,
 				250BAF6B2A1D07A4006B3490 /* chartsView.swift */,
-				250BAF732A263B9F006B3490 /* Nav.swift */,
 				250BAF792A2654CE006B3490 /* exerciseCard.swift */,
 				250F40BA2A276D66001AFDA4 /* DetailsPage.swift */,
+				252A3AF62A335C870078C7E8 /* squat.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -117,6 +122,10 @@
 		257AD9402A07C4E500688C03 /* CoachMe */ = {
 			isa = PBXGroup;
 			children = (
+				250BAF5C2A16C2C2006B3490 /* test.swift */,
+				250BAF602A1A3A16006B3490 /* Step.swift */,
+				25B28CC52A6D451E00A63DF9 /* Squat 2.mlmodel */,
+				25AE76DE2A31E818008D8980 /* AI */,
 				250BAF5F2A16C80C006B3490 /* CoachMe.entitlements */,
 				250BAF5E2A16C3A7006B3490 /* Info.plist */,
 				257AD9412A07C4E500688C03 /* CoachMeApp.swift */,
@@ -125,23 +134,18 @@
 				257AD9472A07C4E600688C03 /* Preview Content */,
 				257AD94F2A07D04400688C03 /* onBoeardingData.swift */,
 				257AD9512A07D46B00688C03 /* onBoreading.swift */,
-				250BAF542A0BB79B006B3490 /* chartData.swift */,
 				250BAF672A1CF2E8006B3490 /* View */,
 				250BAF5A2A16C26E006B3490 /* healthStore.swift */,
-				250BAF562A0BB7A8006B3490 /* chartView.swift */,
 				250BAF6D2A262FE6006B3490 /* splachScreen.swift */,
 				250BAF6F2A2637A2006B3490 /* HealthLog.swift */,
 				250BAF712A263AF4006B3490 /* Main.swift */,
-				250BAF752A264365006B3490 /* Fav.swift */,
 				250BAF772A2650E4006B3490 /* exerciseStruct.swift */,
-				250BAF7B2A2674F1006B3490 /* captureVideo.swift */,
-				250BAF7D2A267595006B3490 /* viewController.swift */,
-				250BAF7F2A2675CC006B3490 /* Detector.swift */,
-				250BAF832A267C4A006B3490 /* VideoCaptuer.swift */,
 				250F40BC2A27820F001AFDA4 /* GifView.swift */,
-				250F40BE2A278299001AFDA4 /* mini-squat-gif.gif */,
-				250F40C12A28C5CD001AFDA4 /* Predicate.swift */,
+				25B28CCB2A6D45C300A63DF9 /* mini-squat-gif.gif */,
 				25AE76DA2A30A877008D8980 /* ExerciseInstruction.swift */,
+				25AE76DC2A30BEE3008D8980 /* beforeCounter.swift */,
+				25C41B8F2A35E9D1008F8A5D /* comingSoon.swift */,
+				25B28CCD2A6D45CA00A63DF9 /* pushups.gif */,
 			);
 			path = CoachMe;
 			sourceTree = "<group>";
@@ -150,10 +154,20 @@
 			isa = PBXGroup;
 			children = (
 				257AD9482A07C4E600688C03 /* Preview Assets.xcassets */,
-				250BAF5C2A16C2C2006B3490 /* test.swift */,
-				250BAF602A1A3A16006B3490 /* Step.swift */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		25AE76DE2A31E818008D8980 /* AI */ = {
+			isa = PBXGroup;
+			children = (
+				25B28CC72A6D453400A63DF9 /* Squat 5.mlmodel */,
+				25E278462A33B74A0082AD3F /* ViewControllerSquat.swift */,
+				25E278482A33B7760082AD3F /* VideoCaptuer.swift */,
+				25E2784A2A33B7930082AD3F /* predictor.swift */,
+				25E2784E2A33B81A0082AD3F /* squatAI.swift */,
+			);
+			path = AI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,9 +234,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				250F40BF2A278299001AFDA4 /* mini-squat-gif.gif in Resources */,
 				257AD9492A07C4E600688C03 /* Preview Assets.xcassets in Resources */,
 				257AD9462A07C4E600688C03 /* Assets.xcassets in Resources */,
+				25B28CCC2A6D45C300A63DF9 /* mini-squat-gif.gif in Resources */,
+				25B28CCE2A6D45CA00A63DF9 /* pushups.gif in Resources */,
+				25B28CCA2A6D458300A63DF9 /* jump.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,29 +252,29 @@
 				250BAF722A263AF4006B3490 /* Main.swift in Sources */,
 				250F40BD2A27820F001AFDA4 /* GifView.swift in Sources */,
 				250BAF592A13B7B9006B3490 /* textModifier.swift in Sources */,
-				250BAF7C2A2674F1006B3490 /* captureVideo.swift in Sources */,
 				257AD9522A07D46B00688C03 /* onBoreading.swift in Sources */,
 				250BAF702A2637A2006B3490 /* HealthLog.swift in Sources */,
+				25C41B902A35E9D1008F8A5D /* comingSoon.swift in Sources */,
 				250BAF6C2A1D07A4006B3490 /* chartsView.swift in Sources */,
 				257AD9442A07C4E500688C03 /* ContentView.swift in Sources */,
 				257AD9422A07C4E500688C03 /* CoachMeApp.swift in Sources */,
-				250BAF802A2675CC006B3490 /* Detector.swift in Sources */,
 				250BAF5D2A16C2C2006B3490 /* test.swift in Sources */,
 				257AD9502A07D04400688C03 /* onBoeardingData.swift in Sources */,
 				250F40BB2A276D66001AFDA4 /* DetailsPage.swift in Sources */,
-				250BAF7E2A267595006B3490 /* viewController.swift in Sources */,
-				250BAF742A263B9F006B3490 /* Nav.swift in Sources */,
-				250BAF552A0BB79B006B3490 /* chartData.swift in Sources */,
+				25AE76DD2A30BEE3008D8980 /* beforeCounter.swift in Sources */,
+				252A3AF72A335C870078C7E8 /* squat.swift in Sources */,
+				25B28CC82A6D453400A63DF9 /* Squat 5.mlmodel in Sources */,
+				25B28CC62A6D451E00A63DF9 /* Squat 2.mlmodel in Sources */,
+				25E278472A33B74A0082AD3F /* ViewControllerSquat.swift in Sources */,
+				25E278492A33B7760082AD3F /* VideoCaptuer.swift in Sources */,
 				25AE76DB2A30A877008D8980 /* ExerciseInstruction.swift in Sources */,
-				250BAF762A264365006B3490 /* Fav.swift in Sources */,
+				25E2784F2A33B81A0082AD3F /* squatAI.swift in Sources */,
 				250BAF6E2A262FE6006B3490 /* splachScreen.swift in Sources */,
 				250BAF782A2650E4006B3490 /* exerciseStruct.swift in Sources */,
 				250BAF612A1A3A16006B3490 /* Step.swift in Sources */,
 				250BAF7A2A2654CE006B3490 /* exerciseCard.swift in Sources */,
-				250BAF572A0BB7A8006B3490 /* chartView.swift in Sources */,
-				250F40C22A28C5CD001AFDA4 /* Predicate.swift in Sources */,
+				25E2784B2A33B7930082AD3F /* predictor.swift in Sources */,
 				250BAF5B2A16C26E006B3490 /* healthStore.swift in Sources */,
-				250BAF842A267C4A006B3490 /* VideoCaptuer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -386,31 +402,35 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = CoachMe/CoachMe.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 1.1;
 				DEVELOPMENT_ASSET_PATHS = "\"CoachMe/Preview Content\"";
 				DEVELOPMENT_TEAM = YTTR5V58U3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CoachMe/Info.plist;
-				INFOPLIST_KEY_NSCameraUsageDescription = "allow camera to start exercising";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
+				INFOPLIST_KEY_NSCameraUsageDescription = "allow camer to track your exercise no video of you will be saved";
 				INFOPLIST_KEY_NSHealthShareUsageDescription = "This app requires access to your health data";
 				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "This app requires access to your health data";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = appleAcadmey.CoachMe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -421,31 +441,35 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = CoachMe/CoachMe.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 1.1;
 				DEVELOPMENT_ASSET_PATHS = "\"CoachMe/Preview Content\"";
 				DEVELOPMENT_TEAM = YTTR5V58U3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CoachMe/Info.plist;
-				INFOPLIST_KEY_NSCameraUsageDescription = "allow camera to start exercising";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
+				INFOPLIST_KEY_NSCameraUsageDescription = "allow camer to track your exercise no video of you will be saved";
 				INFOPLIST_KEY_NSHealthShareUsageDescription = "This app requires access to your health data";
 				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "This app requires access to your health data";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = appleAcadmey.CoachMe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

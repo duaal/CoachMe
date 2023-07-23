@@ -121,14 +121,15 @@ struct HealthLog: View {
                             }
                         }.padding()
                         
-                        List(activities , id : \.id) { activity in
-                            Text("\(activity.min)")
-                        }
+                        
                     }}else {
                         VStack{
                             Text("to see your health log here please accept permsion")
                         }.padding()
-                    }}.onAppear {
+                    }
+                Spacer()
+           
+            }.onAppear {
                 Task {
                     if let healthStore = healthStore {
                         await healthStore.requestAuteraziation {
